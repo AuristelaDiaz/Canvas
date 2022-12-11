@@ -1,0 +1,32 @@
+  //Draw a white rectangule in the center
+    /*context.strokeStyle = 'white';
+    context.lineWidth = 4;
+    context.strokeRect(width / 4, height / 4, width / 2, height / 2);*/
+    /*context.fillStyle = 'black';
+    context.linewidth = 10;*/
+    //Draw a House 
+
+    //Grueso de la linea
+
+    //Cuerpo de la casa y puerta
+    /*context.strokeRect(75,140, 150, 110);
+    context.fillRect(130, 190, 40, 60); // puerta
+    //techo
+    context.beginPath();
+    context.moveTo(50, 140);
+    context.lineTo(150, 60);
+    context.lineTo(250, 140);
+    context.closePath();
+    context.stroke();*/
+
+
+    variable = math.degToRad(N); //angule degrees
+
+
+----------------------
+BUENA PRACTICA -> RESTAURA EL ESTADO DEL CONTEXTO DESPUÉS DE TRANSFORMARLO
+
+context.save();
+context.restore();
+
+------------------
